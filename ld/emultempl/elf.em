@@ -1076,7 +1076,7 @@ fragment <<EOF
       else if (strcmp (optarg, "nocopyreloc") == 0)
 	link_info.nocopyreloc = true;
         else if (strcmp (optarg, "use-gs-for-tls") == 0)
-  link_info.use_gs_for_tls = TRUE;
+  link_info.use_gs_for_tls = true;
 EOF
 if test -n "$COMMONPAGESIZE"; then
 fragment <<EOF
