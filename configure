@@ -4070,6 +4070,9 @@ case "${target}" in
   wasm32-*-*)
     noconfigdirs="$noconfigdirs ld"
     ;;
+  *-*-redox)
+    noconfigdirs="$noconfigdirs"
+    ;;
   loongarch*-*-linux*)
     ;;
   loongarch*-*-*)
